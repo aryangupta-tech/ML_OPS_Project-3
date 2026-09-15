@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("/Users/aryanguptasamanagmail.com/Desktop/ML OPS3/Student_Performance_DT.csv")
+df = pd.read_csv("Student_Performance_DT.csv")
 print(df.head())
 print(df.isna().sum())
 df.shape
